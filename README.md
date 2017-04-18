@@ -58,7 +58,7 @@ Say any of the following:
 Once I have the average price intent hammered out I want to create intents
 for the following:
 
-- lowest bid price
-- highest ask price
-- last price
-- 24 hour volume
+- [ ] lowest bid price
+- [ ] highest ask price
+- [ ] last price
+- [ ] 24 hour volume
