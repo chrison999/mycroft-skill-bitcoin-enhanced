@@ -43,7 +43,7 @@ For most currencies you can use the currency's name (e.g. "euros" or
 because there are multiple currencies with that name.  In those cases
 you must use the full name (e.g. "canadian dollars" or "singapore
 dollars").  In the case of US dollars you can use either "american
-dollars" or "usa dollars."  If no currency is specified "USD" is used.
+dollars" or "usa dollars."
 
 USAGE:
 
