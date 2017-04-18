@@ -1,7 +1,7 @@
 # mycroft-skill-bitcoin-enhanced
 A skill for MycroftAI that querys various bitcoin statistics.
 
-DESCRIPTION:
+## DESCRIPTION:
 
 This Mycroft skill is an enhancement of the bitcoin-skill by Red5d.
 (https://github.com/Red5d/mycroft_skills/tree/master/bitcoin)
@@ -36,7 +36,7 @@ available currencies is as follows:
 - US Dollars (USD)
 - South African Rands (ZAR)
 
-NOTE:
+###### NOTE:
 
 For most currencies you can use the currency's name (e.g. "euros" or
 "shekels").  This does not work when the currency's name is "dollars"
@@ -45,7 +45,7 @@ you must use the full name (e.g. "canadian dollars" or "singapore
 dollars").  In the case of US dollars you can use either "american
 dollars" or "usa dollars."  If no currency is specified "USD" is used.
 
-USAGE:
+## USAGE:
 
 Say any of the following:
 
@@ -53,7 +53,7 @@ Say any of the following:
 - What is bitcoin in canadian dollars
 - tell me the price of bitcoin in pounds
 
-TODO
+## TODO
 
 Once I have the average price intent hammered out I want to create intents
 for the following:
