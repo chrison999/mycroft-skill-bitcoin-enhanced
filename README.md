@@ -6,10 +6,13 @@ DESCRIPTION:
 This Mycroft skill is an enhancement of the bitcoin-skill by Red5d.
 (https://github.com/Red5d/mycroft_skills/tree/master/bitcoin)
 
-The original skill assumes everything is in US dollars (USD).
-What I have done is create a regex to distinguish between
-a number of currencies.  The current list of available 
-currencies is as follows:
+The bitcoin statistics are obtained from bitcoinaverage.com.
+(https://api.bitcoinaverage.com/all)
+
+The original skill assumes the currency is  US dollars (USD).
+What I have done is create a regex to distinguish between the 
+currencies available at bitcoinaverage.  The current list of 
+available currencies is as follows:
 
 - Brazilian Reals (BRL)
 - British Pounds (GBP)
@@ -48,3 +51,14 @@ Say any of the following:
 
 - What is the bitcoin price in euros
 - What is bitcoin in canadian dollars
+- tell me the price of bitcoin in pounds
+
+TODO
+
+Once I have the average price intent hammered out I want to create intents
+for the following:
+
+- lowest bid price
+- highest ask price
+- last price
+- 24 hour volume
