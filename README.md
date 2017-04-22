@@ -9,8 +9,17 @@ This Mycroft skill is an enhancement of the bitcoin-skill by Red5d.
 The bitcoin statistics are obtained from bitcoinaverage.com.
 (https://api.bitcoinaverage.com/all)
 
-The original skill assumes the currency is  US dollars (USD).
-What I have done is create a regex to distinguish between the 
+[The original skill assumes the currency is  US dollars (USD) and
+only provided the 24-hour average price.  I have expanded the
+statistic to include all of the following:
+
+- Asking Price
+- Bid Price
+- Last Price
+- 24-hour Average Price
+- Volume (in BTC)
+
+As well, I have created a regex to distinguish between the 
 currencies available at bitcoinaverage.  The current list of 
 available currencies is as follows:
 
@@ -18,9 +27,9 @@ available currencies is as follows:
 - British Pounds (GBP)
 - Canadian Dollars (CAD)
 - Euros (EUR)
-- Yuans (CNY)
+- Chinese Yuans (CNY)
 - Czech Koruna (CZK)
-- IndonesianRupiahs (IDR)
+- Indonesian Rupiahs (IDR)
 - Israeli shekels (ILS)
 - Indian Rupees (INR)
 - Japanese Yens (JPY)
@@ -38,12 +47,13 @@ available currencies is as follows:
 
 ###### NOTE:
 
-For most currencies you can use the currency's name (e.g. "euros" or
-"shekels").  This does not work when the currency's name is "dollars"
-because there are multiple currencies with that name.  In those cases
-you must use the full name (e.g. "canadian dollars" or "singapore
-dollars").  In the case of US dollars you can use either "american
-dollars" or "usa dollars."  If no currency is specified "USD" is used.
+For most currencies use the currency's short name (e.g. "euros" or
+"shekels").  However, this does not work when the currency's name is
+"dollars" because there are multiple currencies with that name.  In
+those cases you must use the full name (e.g. "canadian dollars" or
+"singapore dollars").  In the case of US dollars you can use either
+"american dollars" or "usa dollars."  If no currency is specified
+"USD" is used.
 
 ## USAGE:
 
@@ -58,7 +68,8 @@ Say any of the following:
 Once I have the average price intent hammered out I want to create intents
 for the following:
 
+- [ ] 24-hour average price
 - [ ] lowest bid price
 - [ ] highest ask price
 - [ ] last price
-- [ ] 24 hour volume
+- [ ] 24-hour volume
