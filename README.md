@@ -11,7 +11,7 @@ The bitcoin statistics are obtained from bitcoinaverage.com.
 
 The original skill assumes the currency is  US dollars (USD) and
 only provided the 24-hour average price.  I have expanded the
-statistic to include all of the following:
+statistics to include all of the following:
 
 - Asking Price
 - Bid Price
@@ -19,7 +19,7 @@ statistic to include all of the following:
 - 24-hour Average Price
 - Volume (in BTC)
 
-As well, I have created a regex to distinguish between the 
+As well, I have created a regex that distinguishes between the 
 currencies available at bitcoinaverage.  The current list of 
 available currencies is as follows:
 
@@ -57,19 +57,75 @@ those cases you must use the full name (e.g. "canadian dollars" or
 
 ## USAGE:
 
-Say any of the following:
 
-- What is the bitcoin price in euros
-- What is bitcoin in canadian dollars
-- tell me the price of bitcoin in pounds
+- Asking Price
+- Bid Price
+- Last Price
+- 24-hour Average Price
+- Volume (in BTC)
 
-## TODO
 
-Once I have the average price intent hammered out I want to create intents
-for the following:
+###### Asking Price
 
-- [ ] 24-hour average price
-- [ ] lowest bid price
-- [ ] highest ask price
-- [ ] last price
-- [ ] 24-hour volume
+Say any phrase that contains the following keywords:
+
+- high bitcoin price
+- highest bitcoin price
+- asking bitcoin price
+- bitcoin ask price
+- bitcoin asking price
+
+*(Example:  "What is the asking bitcoin price in Euros?")*
+
+###### Bid Price
+
+Say any phrase that contains the following keywords:
+
+- low bitcoin price
+- lowest bitcoin price
+- bitcoin bid price
+
+*(Example:  "Tell me the bitcoin bid price.")*
+
+###### Last Price
+
+Say any phrase that contains the following keywords:
+
+- bitcoin price
+- last bitcoin price
+- bitcoin last price
+- current bitcoin price
+
+*(Example:  "What in pesos is the last bitcoin price?)*
+
+###### 24-hour Average Price
+
+Say any phrase that contains the following keywords:
+
+- average bitcoin price
+- bitcoin average price
+
+*(Example:  "Tell me the average bitcoin price in pesos.)*
+
+###### 24-hour Volume
+
+Say any phrase that contains the following keywords:
+
+bitcoin volume
+volume of bitcoin
+
+*(Example:  "What is the volume of bitcoin in shekels?)*
+
+## TODO:
+
+1.  This is the initial version of this skill and I have only done
+preliminary debugging of the code.  I would welcome people testing the skill
+and letting me know of any problems/bugs at chrison999 (at) yahoo.ca. 
+Please put "Mycroft Bitcoin Skill" in the subject of your message.
+
+2.  Bitcoinaverage.com has a lot more statistics available such has
+statistics for exchanges selling bitcoin in each currency.  Possible future
+enhancements could include:
+- Reporting which exchanges sell bitcoin in each currency *(e.g. "What are
+bitcoin exchanges for euros?")*
+
