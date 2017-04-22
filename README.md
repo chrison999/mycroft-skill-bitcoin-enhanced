@@ -67,7 +67,7 @@ those cases you must use the full name (e.g. "canadian dollars" or
 
 ###### Asking Price
 
-Say any phrase that contains the following keywords:
+Say any phrase that contains one of the following keywords:
 
 - high bitcoin price
 - highest bitcoin price
@@ -79,7 +79,7 @@ Say any phrase that contains the following keywords:
 
 ###### Bid Price
 
-Say any phrase that contains the following keywords:
+Say any phrase that contains one of the following keywords:
 
 - low bitcoin price
 - lowest bitcoin price
@@ -89,7 +89,7 @@ Say any phrase that contains the following keywords:
 
 ###### Last Price
 
-Say any phrase that contains the following keywords:
+Say any phrase that contains one of the following keywords:
 
 - bitcoin price
 - last bitcoin price
@@ -100,7 +100,7 @@ Say any phrase that contains the following keywords:
 
 ###### 24-hour Average Price
 
-Say any phrase that contains the following keywords:
+Say any phrase that contains one of the following keywords:
 
 - average bitcoin price
 - bitcoin average price
@@ -109,7 +109,7 @@ Say any phrase that contains the following keywords:
 
 ###### 24-hour Volume
 
-Say any phrase that contains the following keywords:
+Say any phrase that contains one of the following keywords:
 
 bitcoin volume
 volume of bitcoin
