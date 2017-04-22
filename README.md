@@ -126,7 +126,7 @@ Please put "Mycroft Bitcoin Skill" in the subject of your message.
 2.  Bitcoinaverage.com has a lot more statistics available such has
 statistics for exchanges selling bitcoin in each currency.  Possible future
 enhancements could include:
-- Reporting which exchanges sell bitcoin in each currency *(e.g. "What are
+    - Reporting which exchanges sell bitcoin in each currency *(e.g. "What are
 the bitcoin exchanges for euros?")*
-- Reporting statistic for an exchange *(e.g. "What is the last price for
+    - Reporting statistic for an exchange *(e.g. "What is the last price for
 bitcoin in Euros for Bitonic?")*
