@@ -111,8 +111,8 @@ Say any phrase that contains one of the following keywords:
 
 Say any phrase that contains one of the following keywords:
 
-bitcoin volume
-volume of bitcoin
+- bitcoin volume
+- volume of bitcoin
 
 *(Example:  "What is the volume of bitcoin in shekels?)*
 
