@@ -47,23 +47,15 @@ available currencies is as follows:
 
 ###### NOTE:
 
-For most currencies use the currency's short name (e.g. "euros" or
-"shekels").  However, this does not work when the currency's name is
+For most currencies use the currency's short name (e.g. "Euros" or
+"Shekels").  However, this does not work when the currency's name is
 "dollars" because there are multiple currencies with that name.  In
-those cases you must use the full name (e.g. "canadian dollars" or
-"singapore dollars").  In the case of US dollars you can use either
-"american dollars" or "usa dollars."  If no currency is specified
+those cases you *must* use the full name (e.g. "Canadian Dollars" or
+"Singapore Dollars").  In the case of US dollars you can use either
+"American Dollars" or "USA Dollars."  If no currency is specified
 "USD" is used.
 
 ## USAGE:
-
-
-- Asking Price
-- Bid Price
-- Last Price
-- 24-hour Average Price
-- Volume (in BTC)
-
 
 ###### Asking Price
 
@@ -96,7 +88,7 @@ Say any phrase that contains one of the following keywords:
 - bitcoin last price
 - current bitcoin price
 
-*(Example:  "What in pesos is the last bitcoin price?)*
+*(Example:  "What in Pesos is the last bitcoin price?)*
 
 ###### 24-hour Average Price
 
@@ -105,7 +97,7 @@ Say any phrase that contains one of the following keywords:
 - average bitcoin price
 - bitcoin average price
 
-*(Example:  "Tell me the average bitcoin price in pesos.)*
+*(Example:  "Tell me the average bitcoin price in Yuan.)*
 
 ###### 24-hour Volume
 
@@ -114,7 +106,7 @@ Say any phrase that contains one of the following keywords:
 - bitcoin volume
 - volume of bitcoin
 
-*(Example:  "What is the volume of bitcoin in shekels?)*
+*(Example:  "What is the volume of bitcoin in Zlotys?)*
 
 ## TODO:
 
@@ -127,6 +119,6 @@ Please put "Mycroft Bitcoin Skill" in the subject of your message.
 statistics for exchanges selling bitcoin in each currency.  Possible future
 enhancements could include:
     - Reporting which exchanges sell bitcoin in each currency *(e.g. "What are
-the bitcoin exchanges for euros?")*
+the bitcoin exchanges for Euros?")*
     - Reporting statistic for an exchange *(e.g. "What is the last price for
 bitcoin in Euros for Bitonic?")*

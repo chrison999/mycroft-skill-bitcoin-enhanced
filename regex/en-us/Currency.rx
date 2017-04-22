@@ -1,1 +1,1 @@
-(in) (?P<Currency>.*)
+(in|for) (?P<Currency>.*)
