@@ -9,7 +9,7 @@ This Mycroft skill is an enhancement of the bitcoin-skill by Red5d.
 The bitcoin statistics are obtained from bitcoinaverage.com.
 (https://api.bitcoinaverage.com/all)
 
-[The original skill assumes the currency is  US dollars (USD) and
+The original skill assumes the currency is  US dollars (USD) and
 only provided the 24-hour average price.  I have expanded the
 statistic to include all of the following:
 
