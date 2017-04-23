@@ -25,28 +25,28 @@ available currencies is as follows:
 
 | Currency | Say this to Mycroft |
 | -------- | ------------------- |
-| Brazilian Reals (BRL) | Reals |
-| British Pounds (GBP) | Pounds |
-| Canadian Dollars (CAD) | Canadian Dollars |
-| Euros (EUR) | Euros |
-| Chinese Yuans (CNY) | Yuans |
-| Czech Koruna (CZK) | Koruna |
-| Indonesian Rupiahs (IDR) | Rupiahs |
-| Israeli Shekels (ILS) | Shekels |
-| Indian Rupees (INR) | Rupees |
-| Japanese Yens (JPY) | Yens |
-| South Korean Won (KRW) | Won |
-| Mexican Pesos (MXN) | Pesos |
-| Malaysian Ringgit (MYR) | Ringgit |
-| Nigerian Nairas (NGN) | Mairas |
-| Polish Zlotys:  (PLN)| Zlotys |
-| Russian Roubles (RUB) | Roubles |
-| Swedish Kronas (SEK) | Kronas |
-| Singapore Dollars (SGD) | Singapore Dollars |
-| Turkish Lira (TRY) | Lira |
-| US Dollars (USD) | USA Dollars
- American Dollars |
-| South African Rands (ZAR) | Rands |
+| Brazilian Reals (BRL) | "Reals" |
+| British Pounds (GBP) | "Pounds" |
+| Canadian Dollars (CAD) | "Canadian Dollars" |
+| Euros (EUR) | "Euros" |
+| Chinese Yuans (CNY) | "Yuans" |
+| Czech Koruna (CZK) | "Koruna" |
+| Indonesian Rupiahs (IDR) | "Rupiahs" |
+| Israeli Shekels (ILS) | "Shekels" |
+| Indian Rupees (INR) | "Rupees" |
+| Japanese Yens (JPY) | "Yens" |
+| South Korean Won (KRW) | "Won" |
+| Mexican Pesos (MXN) | "Pesos" |
+| Malaysian Ringgit (MYR) | "Ringgit" |
+| Nigerian Nairas (NGN) | "Mairas" |
+| Polish Zlotys:  (PLN)| "Zlotys" |
+| Russian Roubles (RUB) | "Roubles" |
+| Swedish Kronas (SEK) | "Kronas" |
+| Singapore Dollars (SGD) | "Singapore Dollars" |
+| Turkish Lira (TRY) | "Lira" |
+| US Dollars (USD) | "USA Dollars"
+ "American Dollars" |
+| South African Rands (ZAR) | "Rands" |
 
 ###### NOTE:
 
@@ -64,41 +64,43 @@ those cases you *must* use the full name (e.g. "Canadian Dollars" or
 
 Say any phrase that contains one of the following keywords:
 
-- high bitcoin price
-- highest bitcoin price
-- asking bitcoin price
-- bitcoin ask price
-- bitcoin asking price
-
-*(Example:  "What is the asking bitcoin price in Euros?")*
+| Keyword(s) | Example |
+| ---------- | ------- |
+| high bitcoin price | "Mycroft, what is the high bitcoin price in Pesos?" |
+| highest bitcoin price | "Mycroft, tell me the hightst bitcoin price."
+| asking bitcoin price | "Mycroft, give me the asking bitcoin price in Canadian Dollars." |
+| bitcoin ask price | "Mycroft, what is the bitcoin ask price?" |
+| bitcoin asking price | "Mycroft, I want to know the bitcoin asking price." |
 
 ###### Bid Price
 
 Say any phrase that contains one of the following keywords:
 
-- low bitcoin price
-- lowest bitcoin price
-- bitcoin bid price
-
-*(Example:  "Tell me the bitcoin bid price.")*
+| Keyword(s) | Example |
+| ---------- | ------- |
+| low bitcoin price | "Mycroft, tell me the low bitcoin price." |
+| lowest bitcoin price | Mycroft, what is the lowest bitcoin price in Pounds?" |
+| bitcoin bid price | "Mycroft, give me the current bitcoin bid price."
 
 ###### Last Price
 
 Say any phrase that contains one of the following keywords:
 
-- bitcoin price
-- last bitcoin price
-- bitcoin last price
-- current bitcoin price
-
-*(Example:  "What in Pesos is the last bitcoin price?)*
+| Keyword(s) | Example |
+| ---------- | ------- |
+| bitcoin price | "Mycroft, what is the bitcoin price in Lira?" |
+| last bitcoin price | "Mycroft, tell me the last bitcoin price." |
+| bitcoin last price | "Mycroft, what is the bitcoin last price?" |
+| current bitcoin price | "Mycroft, give me the bitcoin price." |
 
 ###### 24-hour Average Price
 
 Say any phrase that contains one of the following keywords:
 
-- average bitcoin price
-- bitcoin average price
+| Keyword(s) | Example |
+| ---------- | ------- |
+| average bitcoin price | "Mycroft, what is the average bitcoin price in Zlotys?" |
+| bitcoin average price | "Mycroft, tell me the bitcoin average price." |
 
 *(Example:  "Tell me the average bitcoin price in Yuan.)*
 
@@ -106,10 +108,10 @@ Say any phrase that contains one of the following keywords:
 
 Say any phrase that contains one of the following keywords:
 
-- bitcoin volume
-- volume of bitcoin
-
-*(Example:  "What is the volume of bitcoin in Zlotys?)*
+| Keyword(s) | Example |
+| ---------- | ------- |
+| bitcoin volume | "Mycroft, what is the bitcoin volume in Won?" |
+| volume of bitcoin | "Mycroft, tell me the volume of bitcoin." |
 
 ## TODO:
 
