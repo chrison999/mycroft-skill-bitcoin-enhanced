@@ -102,8 +102,6 @@ Say any phrase that contains one of the following keywords:
 | average bitcoin price | "Mycroft, what is the average bitcoin price in Zlotys?" |
 | bitcoin average price | "Mycroft, tell me the bitcoin average price." |
 
-*(Example:  "Tell me the average bitcoin price in Yuan.)*
-
 ###### 24-hour Volume
 
 Say any phrase that contains one of the following keywords:
