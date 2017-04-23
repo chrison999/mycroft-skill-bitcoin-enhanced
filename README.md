@@ -23,27 +23,30 @@ As well, I have created a regex that distinguishes between the
 currencies available at bitcoinaverage.  The current list of 
 available currencies is as follows:
 
-- Brazilian Reals (BRL)
-- British Pounds (GBP)
-- Canadian Dollars (CAD)
-- Euros (EUR)
-- Chinese Yuans (CNY)
-- Czech Koruna (CZK)
-- Indonesian Rupiahs (IDR)
-- Israeli shekels (ILS)
-- Indian Rupees (INR)
-- Japanese Yens (JPY)
-- South Korean Won (KRW)
-- Mexican Pesos (MXN)
-- Malaysian Ringgit (MYR)
-- Nigerian Nairas (NGN)
-- Polish Zlotys:  (PLN)
-- Russian Roubles (RUB)
-- Swedish Kronas (SEK)
-- Singapore Dollars (SGD)
-- Turkish Lira (TRY)
-- US Dollars (USD)
-- South African Rands (ZAR)
+| Currency | Say this to Mycroft |
+| -------- | ------------------- |
+| Brazilian Reals (BRL) | Reals |
+| British Pounds (GBP) | Pounds |
+| Canadian Dollars (CAD) | Canadian Dollars |
+| Euros (EUR) | Euros |
+| Chinese Yuans (CNY) | Yuans |
+| Czech Koruna (CZK) | Koruna |
+| Indonesian Rupiahs (IDR) | Rupiahs |
+| Israeli Shekels (ILS) | Shekels |
+| Indian Rupees (INR) | Rupees |
+| Japanese Yens (JPY) | Yens |
+| South Korean Won (KRW) | Won |
+| Mexican Pesos (MXN) | Pesos |
+| Malaysian Ringgit (MYR) | Ringgit |
+| Nigerian Nairas (NGN) | Mairas |
+| Polish Zlotys:  (PLN)| Zlotys |
+| Russian Roubles (RUB) | Roubles |
+| Swedish Kronas (SEK) | Kronas |
+| Singapore Dollars (SGD) | Singapore Dollars |
+| Turkish Lira (TRY) | Lira |
+| US Dollars (USD) | USA Dollars |
+| | American Dollars |
+| South African Rands (ZAR) | Rands |
 
 ###### NOTE:
 
