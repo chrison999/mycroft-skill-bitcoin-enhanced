@@ -54,7 +54,7 @@ class BitcoinSkill(MycroftSkill):
             currency = 'u s dollars'
         result = self.fiat_get(currency)
         price = requests.get("https://api.bitcoinaverage.com/all").json()[str(result)]['averages']['ask']
-        self.speak("The current asking price for bitcoin "+str(price)+" "+currency+".")
+        self.speak("The current asking price for bitcoin is "+str(price)+" "+currency+".")
 
     def handle_low(self, message):
         currency = str(message.data.get("Currency"))  # optional parameter
@@ -62,7 +62,7 @@ class BitcoinSkill(MycroftSkill):
             currency = 'u s dollars'
         result = self.fiat_get(currency)
         price = requests.get("https://api.bitcoinaverage.com/all").json()[str(result)]['averages']['bid']
-        self.speak("The current bid price for bitcoin "+str(price)+" "+currency+".")
+        self.speak("The current bid price for bitcoin is "+str(price)+" "+currency+".")
 
     def handle_last(self, message):
         currency = str(message.data.get("Currency"))  # optional parameter
@@ -70,7 +70,7 @@ class BitcoinSkill(MycroftSkill):
             currency = 'u s dollars'
         result = self.fiat_get(currency)
         price = requests.get("https://api.bitcoinaverage.com/all").json()[str(result)]['averages']['last']
-        self.speak("The current price for bitcoin "+str(price)+" "+currency+".")
+        self.speak("The current price for bitcoin is "+str(price)+" "+currency+".")
 
     def handle_volume(self, message):
         currency = str(message.data.get("Currency"))  # optional parameter
@@ -78,7 +78,7 @@ class BitcoinSkill(MycroftSkill):
             currency = 'u s dollars'
         result = self.fiat_get(currency)
         price = requests.get("https://api.bitcoinaverage.com/all").json()[str(result)]['averages']['total_vol']
-        self.speak("The 24 hour volume for "+currency+ " bitcoin is "+str(price)+" btc.")
+        self.speak("The 24 hour volume for "+currency+" bitcoin is "+str(price)+" btc.")
 
     def fiat_get(self, currency):
         if currency == 'None':
