@@ -44,8 +44,8 @@ available currencies is as follows:
 | Swedish Kronas (SEK) | Kronas |
 | Singapore Dollars (SGD) | Singapore Dollars |
 | Turkish Lira (TRY) | Lira |
-| US Dollars (USD) | USA Dollars |
-| | American Dollars |
+| US Dollars (USD) | USA Dollars
+ American Dollars |
 | South African Rands (ZAR) | Rands |
 
 ###### NOTE:
