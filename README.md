@@ -9,6 +9,13 @@ This Mycroft skill is an enhancement of the bitcoin-skill by Red5d.
 The bitcoin statistics are obtained from bitcoinaverage.com.
 (https://api.bitcoinaverage.com/all)
 
+## CURRENT STATE:
+
+This skill essentially works as described below.  See the ToDo and
+Known  Issues sections for details on any existing issues.
+
+## WHAT IT DOES:
+
 The original skill assumes the currency is  US dollars (USD) and
 only provided the 24-hour average price.  I have expanded the
 statistics to include all of the following:
@@ -111,6 +118,13 @@ Say any phrase that contains one of the following keywords:
 | bitcoin volume | "Mycroft, what is the bitcoin volume in Won?" |
 | volume of bitcoin | "Mycroft, tell me the volume of bitcoin." |
 
+
+## KNOWN ISSUES:
+
+1.  If a currency is specified and cannot be found in the list of available
+currencies (as listed above), the skill reports the statistic for US dollars
+but as being for the currency that couldn't be found in the list.
+
 ## TODO:
 
 1.  This is the initial version of this skill and I have only done
@@ -118,8 +132,8 @@ preliminary debugging of the code.  I would welcome people testing the skill
 and letting me know of any problems/bugs at chrison999 (at) yahoo.ca. 
 Please put "Mycroft Bitcoin Skill" in the subject of your message.
 
-2.  Bitcoinaverage.com has a lot more statistics available such has
-statistics for exchanges selling bitcoin in each currency.  Possible future
+2.  Bitcoinaverage.com has a lot more data  available,  such has statistics
+for exchanges selling bitcoin in each currency.  Possible future
 enhancements could include:
     - Reporting which exchanges sell bitcoin in each currency *(e.g. "What are
 the bitcoin exchanges for Euros?")*
