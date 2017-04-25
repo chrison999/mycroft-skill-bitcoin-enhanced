@@ -16,9 +16,9 @@ Known  Issues sections for details on any existing issues.
 
 ## WHAT IT DOES:
 
-The original skill assumes the currency is  US dollars (USD) and
+The original skill assumed the currency is US dollars (USD) and
 only provided the 24-hour average price.  I have expanded the
-statistics to include all of the following:
+skill to include all of the following statistics:
 
 - Asking Price
 - Bid Price
@@ -62,8 +62,8 @@ For most currencies use the currency's short name (e.g. "Euros" or
 "dollars" because there are multiple currencies with that name.  In
 those cases you *must* use the full name (e.g. "Canadian Dollars" or
 "Singapore Dollars").  In the case of US dollars you can use either
-"American Dollars" or "USA Dollars."  If no currency is specified
-"USD" is used.
+leave out a currency altogether, or use either "American Dollars" or
+"USA Dollars."
 
 ## USAGE:
 
